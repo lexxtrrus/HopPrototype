@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _speedBall = 1f;
     [SerializeField] private InputPosition _input;
     [SerializeField] private LinesGenerator _lineGeneretor;
-
+    [SerializeField] Text text;
 
     private bool moving = true;
     [SerializeField ]private float iteration;
